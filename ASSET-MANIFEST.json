@@ -1,0 +1,546 @@
+{
+  "build": "v16",
+  "studies": [
+    {
+      "id": "brain-t1",
+      "files": [
+        "scan-data/brain-t1-part-01.js"
+      ],
+      "imageSha256": "56eaecebb8da10dd6b75cb4e071405a2733e43152dbad6bf1c22bd3b00acc034",
+      "maskSha256": "84af8669f0a760d6f5840840da70ba441870544828dfb6a097a6f5b5ee9e8f06"
+    },
+    {
+      "id": "brain-t2",
+      "files": [
+        "scan-data/brain-t2-part-01.js"
+      ],
+      "imageSha256": "2725a2236109cbba62d830d09a5ae1577c3a92e70b30a48ac42f88091ea950cb",
+      "maskSha256": "84af8669f0a760d6f5840840da70ba441870544828dfb6a097a6f5b5ee9e8f06"
+    },
+    {
+      "id": "ct-head",
+      "files": [
+        "scan-data/ct-head-part-01.js"
+      ],
+      "imageSha256": "0caae542fc12f4a8dc593866fdc221db68429ab1fcfe0f16f7e6fe0d427d86b0",
+      "maskSha256": null
+    },
+    {
+      "id": "ct-chest",
+      "files": [
+        "scan-data/ct-chest-part-01.js",
+        "scan-data/ct-chest-part-02.js"
+      ],
+      "imageSha256": "1f0bb04cb2deb76ac4025fcb2aa0b194d5e0d62c17fbe7bcbf533831ba33f478",
+      "maskSha256": null
+    },
+    {
+      "id": "ct-abdomen",
+      "files": [
+        "scan-data/ct-abdomen-part-01.js",
+        "scan-data/ct-abdomen-part-02.js"
+      ],
+      "imageSha256": "8151958345fe299173376dcefd21f49e8c4bb07439f525884d7679b3e0244fdd",
+      "maskSha256": null
+    },
+    {
+      "id": "ct-cardio",
+      "files": [
+        "scan-data/ct-cardio-part-01.js",
+        "scan-data/ct-cardio-part-02.js"
+      ],
+      "imageSha256": "29ffd02e691982be567313b83ab868e11478e0ce157a69e640b598c2afcfc38c",
+      "maskSha256": null
+    },
+    {
+      "id": "ctpa",
+      "files": [
+        "scan-data/ctpa-part-01.js",
+        "scan-data/ctpa-part-02.js",
+        "scan-data/ctpa-part-03.js",
+        "scan-data/ctpa-part-04.js"
+      ],
+      "imageSha256": "fe5cf792c5f4ad3f55d890d08d6d7c4b3138cb6d79853b9f840e3e7833309277",
+      "maskSha256": null
+    },
+    {
+      "id": "mri-abdomen",
+      "files": [
+        "scan-data/mri-abdomen-part-01.js"
+      ],
+      "imageSha256": "0d9f5f6780b840903d9a40f8005ea951fc006d732dd1acd1b950587afd11c633",
+      "maskSha256": "555575daf2b56c2b1420419ebbe501e9426c0b8f0dd4131073c71dae12669f7c"
+    },
+    {
+      "id": "cta-aorta",
+      "files": [
+        "scan-data/cta-aorta-part-01.js",
+        "scan-data/cta-aorta-part-02.js",
+        "scan-data/cta-aorta-part-03.js",
+        "scan-data/cta-aorta-part-04.js",
+        "scan-data/cta-aorta-part-05.js"
+      ],
+      "imageSha256": "fc0809b6f2a2e04aabddfb606d4b534bf5496d4865fdb8070fde7c1b7e62e2f5",
+      "maskSha256": "171b66e63dc1dcff1c212f2a0dd321fbefce61a1a76a7c2b9c005692b934ccfd"
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 20,
+      "sha256": "2bdfdb216230559f36faf46907142b8afd478401150f810e1ddaf9a4fdcc656c"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5512,
+      "sha256": "67181d2c6f4d2bb6ab21066aba17ba85170d88f2bb26069e8ed6c5d6204ef869"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 3925,
+      "sha256": "fc909ce1e8d937742c027043de9c76b3c491f97171835886ab030785e18a31b2"
+    },
+    {
+      "path": "clinical-images/figure-00b0782ead4e6d66ad67.png",
+      "bytes": 192101,
+      "sha256": "8bf8f44f973bf108d92c49172aa10e40bdadfe8d1ec6157f499d39729202ea8d"
+    },
+    {
+      "path": "clinical-images/figure-0a4bdecb01daa3e1a9b3.jpg",
+      "bytes": 308434,
+      "sha256": "4e6645f02e63351b6c4bc6f2f6f9f14f070f6a25942b3945983032149c5d0531"
+    },
+    {
+      "path": "clinical-images/figure-0c7cd3d9d96e7e275071.png",
+      "bytes": 486066,
+      "sha256": "12acdf648f3e0d66ee001f632077db26bfbe8c213eb992e2af0e9499604f20c4"
+    },
+    {
+      "path": "clinical-images/figure-1a4cf19cc00e754ef918.jpg",
+      "bytes": 91029,
+      "sha256": "625eaad04a01cb998f07deb913c94e13533f846ab8b6e0928dadac3eab15672a"
+    },
+    {
+      "path": "clinical-images/figure-1ded57b4fd60177fe0df.png",
+      "bytes": 794106,
+      "sha256": "044a70c4ae6aa319a15858dc30105a20b84e6a901a31033db928522615c2f35b"
+    },
+    {
+      "path": "clinical-images/figure-1e7e5283eba3bc1c50fd.png",
+      "bytes": 350678,
+      "sha256": "5d79862dd63d45683eb1311f7037ee7fccfb612a33bd5180621f92729f1dc798"
+    },
+    {
+      "path": "clinical-images/figure-235a69874db78f588990.png",
+      "bytes": 598388,
+      "sha256": "f64658060110fc84ea979cdf3cbe2bef3fdae526db2b1974dea4a3b16941580f"
+    },
+    {
+      "path": "clinical-images/figure-295b9c69f74f273a8686.png",
+      "bytes": 705916,
+      "sha256": "b5881a0d79c4eedde5056add093656f99bd4f714352f6d27dc97cc9ac09d4871"
+    },
+    {
+      "path": "clinical-images/figure-2c3e0bff1bd246db1f0d.jpg",
+      "bytes": 493357,
+      "sha256": "adc07876eea01faba906c62177fed4f72de785a6dd0a1d47432106eaba6ab720"
+    },
+    {
+      "path": "clinical-images/figure-321e2d1b8f9abc7f818e.jpg",
+      "bytes": 73830,
+      "sha256": "8b5ff2bfe7af19e5f13fcdf1021ecefb1c2310c525c8fd7aea4ff7799d39b51e"
+    },
+    {
+      "path": "clinical-images/figure-3a9d04d8321d57aff7f9.jpg",
+      "bytes": 100301,
+      "sha256": "aaf0362dad2af2efaa896500b39d7d52f6266ceb21cbbe3051fe855cc9542afd"
+    },
+    {
+      "path": "clinical-images/figure-3e94695836fe2f698c2f.webp",
+      "bytes": 27798,
+      "sha256": "b1edf7853bef421ff45d6f47056fd9ee18a9c36a1dd087fdf3e14d503f7f57f2"
+    },
+    {
+      "path": "clinical-images/figure-3ef0d23fc408e439abe3.jpg",
+      "bytes": 167872,
+      "sha256": "61a7bf2b905df91339b4c4de5b899e96b4833fc76b3b9ae55c24f7da30c7a29e"
+    },
+    {
+      "path": "clinical-images/figure-4425994c8091e52d1911.png",
+      "bytes": 418627,
+      "sha256": "2354b2df1e206242f4266f9594529a549cbbeedb73b2181936e0340aa6ff9fde"
+    },
+    {
+      "path": "clinical-images/figure-492ab4fdafcabe1fa42f.jpg",
+      "bytes": 1212709,
+      "sha256": "451b54bcfb47f36966f65a56a0f882d925817a1fb4dd45e2e8926af54c8ea796"
+    },
+    {
+      "path": "clinical-images/figure-5053e0f7e41f26f36a3b.jpg",
+      "bytes": 277246,
+      "sha256": "c95b808f116669799bbd3bbd7de936e8dddf4a6e66bc942249f088c5f9285956"
+    },
+    {
+      "path": "clinical-images/figure-50edaee5aab3db085618.jpg",
+      "bytes": 56507,
+      "sha256": "34b1bd4cd13efe51133143582818a6fd5ce5502206023c124ea16cbcabdf7c6f"
+    },
+    {
+      "path": "clinical-images/figure-5699816a5cfe13e3c210.jpg",
+      "bytes": 23937,
+      "sha256": "8c33f808302dcefdb176b139988c3d46ba070475246210ebc63b495571d7a11e"
+    },
+    {
+      "path": "clinical-images/figure-57fb64facaee3e0ffdfe.png",
+      "bytes": 2909486,
+      "sha256": "4a08492842f308e5509843f1c6b69534802471d8f6ad54718e4156765113a6b6"
+    },
+    {
+      "path": "clinical-images/figure-58f39ff47cc2b0c95871.jpg",
+      "bytes": 88721,
+      "sha256": "40863b8f911946ab983273adb428fab907f92122dee123f157abb2cd4c6bb731"
+    },
+    {
+      "path": "clinical-images/figure-5dfadb93aa55d71ffe78.jpg",
+      "bytes": 104152,
+      "sha256": "c3fb043703561040d65d5a9d3ca1a3149f1585addff0e0a86cb5e22b06ce7d94"
+    },
+    {
+      "path": "clinical-images/figure-6453be683ef63f4a0ece.jpg",
+      "bytes": 123125,
+      "sha256": "8ad1e0543398dbf7f5269e04e544e6c588a9850d1479589824578fb3ae44cdd1"
+    },
+    {
+      "path": "clinical-images/figure-662645e9bd46b34dab8b.jpg",
+      "bytes": 378997,
+      "sha256": "a4eb3d3a19ef69b0acc64d1a6366495edf0ac70d41aebd57f1922fcb57dcf299"
+    },
+    {
+      "path": "clinical-images/figure-6790b6b6963c02fb24e0.png",
+      "bytes": 388479,
+      "sha256": "1b3b8a5cef91612eb4fd33b2207a8c33a858bf561703c8a58277f09ef55e89c6"
+    },
+    {
+      "path": "clinical-images/figure-6bd983ee6aef3707215b.jpg",
+      "bytes": 261782,
+      "sha256": "70f2acf8003d793a345b2eddb70482842f680b58302cf4d40097190246f3270b"
+    },
+    {
+      "path": "clinical-images/figure-6d54a61bc55eb60b9b75.png",
+      "bytes": 115243,
+      "sha256": "9e7a650c02aabed18a19a98970227697f3008bd26a29ce723360a65bb163317d"
+    },
+    {
+      "path": "clinical-images/figure-751e5a8b9eceb5029707.png",
+      "bytes": 754426,
+      "sha256": "0cc47aa48761e6a5273140af533f4298f0042eaca5a7c862bb106c3a402b599c"
+    },
+    {
+      "path": "clinical-images/figure-7588ce1a8b80b5ea6f82.png",
+      "bytes": 1042347,
+      "sha256": "30bf6217ba356a6888c42e8291fa6be8033f30f3dcf05a5f6d8d85592c40d170"
+    },
+    {
+      "path": "clinical-images/figure-79edd1f16534e2b0b515.png",
+      "bytes": 974322,
+      "sha256": "e681713cd74cbca67fcdd5308558eede012ae3d5d9efc35e81cfdc4054a63e14"
+    },
+    {
+      "path": "clinical-images/figure-83c350136c262dba5be6.jpg",
+      "bytes": 342289,
+      "sha256": "befdcb80fec3603847c84811e523e044b8b57667984de4c20fd08390d2d600e5"
+    },
+    {
+      "path": "clinical-images/figure-84eb98b26201cf6d0082.jpg",
+      "bytes": 55068,
+      "sha256": "f383eefbda914dd321cf4f2943f0fd5ad154c0f5cc7b7eb9fdea67a01932e6df"
+    },
+    {
+      "path": "clinical-images/figure-86a4282ba48312c3c431.png",
+      "bytes": 260716,
+      "sha256": "781c600219d8339e2bbd1dfcc27294984466a1ead73ec488cde8a0db90e74a0d"
+    },
+    {
+      "path": "clinical-images/figure-87bf8d0bf81bafb48e80.jpg",
+      "bytes": 34292,
+      "sha256": "df6cc038d76bbe6537bae33e07309d1c28406b7adb43a85a89162b786001f07c"
+    },
+    {
+      "path": "clinical-images/figure-889fc64ffd6331b04540.png",
+      "bytes": 706123,
+      "sha256": "7f9ace94f4603949ed8507515f7e0aee96d5fa2877de65e48402e9f50c671e3a"
+    },
+    {
+      "path": "clinical-images/figure-89e111071232e6495687.png",
+      "bytes": 184575,
+      "sha256": "80e5e3d70cd6a94c5fb0d86ce551c3c12991515a9ba87a10fece6a46be5c15b0"
+    },
+    {
+      "path": "clinical-images/figure-8e81abd3aa832cca023f.png",
+      "bytes": 128462,
+      "sha256": "5f1ebd102668748177e5e42197a1b156b1bead2afaba76ba097cc510ed783c46"
+    },
+    {
+      "path": "clinical-images/figure-91a3c6996335a25398e3.png",
+      "bytes": 367613,
+      "sha256": "c1efd882bdc641fc7b2412e550eb565e3ddde3e01a6384b9ad3a9dc2e7104604"
+    },
+    {
+      "path": "clinical-images/figure-94a036f4e1b932d28c4a.png",
+      "bytes": 196949,
+      "sha256": "ddfb6782df6bde122618ebe5ac35e133a2e28dda3a38f70c5b4ec3fce1892f9c"
+    },
+    {
+      "path": "clinical-images/figure-9932423449077997c310.png",
+      "bytes": 136846,
+      "sha256": "8e164e4819fc62f8a78c530757dba398f70cc4e86d5c79724cec4a0a0f5a4cc8"
+    },
+    {
+      "path": "clinical-images/figure-9b68b2e82d00b3136121.jpg",
+      "bytes": 184032,
+      "sha256": "cfabb984a6fa0d06715412b12bb55d765c822b4ee37209eabb6da325cded230d"
+    },
+    {
+      "path": "clinical-images/figure-9f618b037dec99e8ebd8.png",
+      "bytes": 149212,
+      "sha256": "9bc85e15dc2c9e24e969045f8a02d87f4ae0e695fa30fd00ae330efb2b20afa5"
+    },
+    {
+      "path": "clinical-images/figure-a2c96a10817157b37bea.jpg",
+      "bytes": 628561,
+      "sha256": "e33b823fa7e6ef264c35dd9ae59f19a9dd3e70139446541783d50bc135ca5b1a"
+    },
+    {
+      "path": "clinical-images/figure-a5a1f1d460502faae969.png",
+      "bytes": 71221,
+      "sha256": "a47c081c05c1f85f97875cd1155cbc3d5baa5afdef31ea90ca75849ba2f40a16"
+    },
+    {
+      "path": "clinical-images/figure-a703e99ab59ee438c7ae.jpg",
+      "bytes": 408840,
+      "sha256": "0ee94ca2f8738d0f179fecb6e4e568abc01419b152accf47d694de3b404ea6a4"
+    },
+    {
+      "path": "clinical-images/figure-a9d41cada6d1d2b4ca02.jpg",
+      "bytes": 155571,
+      "sha256": "a4a3c476f13cad456c5bba5c26a1c006b7f21254393ebff19b42c73931b84868"
+    },
+    {
+      "path": "clinical-images/figure-af17a993271bfd1424f6.jpg",
+      "bytes": 176569,
+      "sha256": "48fc8e9e2a43dcb8de6a1e2e9c771ccc49501f50e62013eadb5a6e5ac0328815"
+    },
+    {
+      "path": "clinical-images/figure-b9322d4ba6119b01feb5.png",
+      "bytes": 968519,
+      "sha256": "7a351154f81b66caff0749a5d9d3622781a1e00d195da0a1f1068e1589b841a9"
+    },
+    {
+      "path": "clinical-images/figure-c69f727081a3f8383bbc.jpg",
+      "bytes": 30332,
+      "sha256": "e984b2c02869da31f5e04c440cde1e119ac1304a871dfbe84ac597047775716e"
+    },
+    {
+      "path": "clinical-images/figure-d1cbaf2dcec9035daea5.jpg",
+      "bytes": 545843,
+      "sha256": "87fee18f6b68014fb49afbb18a159a29f1d5e0f80f0a97658e2e3778bcb6cea7"
+    },
+    {
+      "path": "clinical-images/figure-d504c6013bce00337994.jpg",
+      "bytes": 461864,
+      "sha256": "373c9601d2256c1c84f80aee8fe51ccd829b352d07cb959b6de36259692ea5bc"
+    },
+    {
+      "path": "clinical-images/figure-d7fc1466589356a521b6.jpg",
+      "bytes": 545708,
+      "sha256": "e6ab4a8343f9bcbb73d7ea66abc7ca6b475bb05c7e610c3bed345f7376352749"
+    },
+    {
+      "path": "clinical-images/figure-d90ee11c4f953472ea8c.jpg",
+      "bytes": 332817,
+      "sha256": "57412dc96f0c2dda561c63f47e53952319e3b50cdce50f310250376305d05c83"
+    },
+    {
+      "path": "clinical-images/figure-d9cb0fc973884d653bd5.jpg",
+      "bytes": 34843,
+      "sha256": "37736fc43e651c5d19c40c99cc2f0d629b6db56acdc5b0abaf06f64e048f41b2"
+    },
+    {
+      "path": "clinical-images/figure-d9f104ff9bf1f5f29c88.jpg",
+      "bytes": 479009,
+      "sha256": "424a3e65c9576d9833c367e4a31d01f8ae8dd74343fbf154a1624be3dc9b0074"
+    },
+    {
+      "path": "clinical-images/figure-e20113d93aac3b6b1439.jpg",
+      "bytes": 194216,
+      "sha256": "fb23653f9ef944302081d68648e1a2edd6685a0cfdc3482be7b92794101a6461"
+    },
+    {
+      "path": "clinical-images/figure-e3cbb5ac7874dc5029b5.jpg",
+      "bytes": 298614,
+      "sha256": "4b97c7f7f24c6c2354e8b7e2f2d9cbce99f1e691571c66e1707bfd671ae6a892"
+    },
+    {
+      "path": "clinical-images/figure-e4144f720d9ff3fa1d72.png",
+      "bytes": 317932,
+      "sha256": "2d4d54720f69d73dbe08e358a21968237a1805fb616e5f1c355c2febc8e4294a"
+    },
+    {
+      "path": "clinical-images/figure-e6e5d53c215416c4ae89.png",
+      "bytes": 548378,
+      "sha256": "549b9159bf141b4f084df31743bd6a1ef6bb71ff4e36f83cd8858885b54bbabb"
+    },
+    {
+      "path": "clinical-images/figure-e6f69323f598c6a830c6.jpg",
+      "bytes": 73452,
+      "sha256": "d05a097b486f6f0321e92db6a8996274b0753ae86597ee4027fa06e35ce30c2e"
+    },
+    {
+      "path": "clinical-images/figure-e898abaec6b1aee0a863.png",
+      "bytes": 654280,
+      "sha256": "c324480eace99d79a0807b0e93b67efa4d31f1adf053c8ab9ab10b4767c410be"
+    },
+    {
+      "path": "clinical-images/figure-ec477c79af9d4d4e5043.jpg",
+      "bytes": 33843,
+      "sha256": "0d5249d732406143af5ab2784992146bfbb78395491dd4f7bde1b7255e940156"
+    },
+    {
+      "path": "clinical-images/figure-f2a9f23a38b6362d9e21.jpg",
+      "bytes": 89479,
+      "sha256": "d0194a418ddc1e20d2069a6550ce2b4798e3460cab2bc396042cdc33c3268813"
+    },
+    {
+      "path": "clinical-images/figure-f43b7a8ea3f48d454b94.jpg",
+      "bytes": 234030,
+      "sha256": "87f62e5061b487a0b53978d2d72db1347a934bb03887e0d7d9add7ebc00a5430"
+    },
+    {
+      "path": "clinical-images/figure-f9c87b319e0594454071.jpg",
+      "bytes": 429590,
+      "sha256": "ad7fb10b3e8eec88489f0fa2f9d69859c9feb6ecd998189f14462f8e584155fb"
+    },
+    {
+      "path": "clinical-images/figure-fa6aacf0fddbfa35b852.jpg",
+      "bytes": 169645,
+      "sha256": "61ed8fbbbeab339a8bade80271ac8a8cae9432496ff9ed63e24a8251b73cbe7e"
+    },
+    {
+      "path": "clinical-images/figure-fa7807c2c218003feee5.png",
+      "bytes": 378098,
+      "sha256": "104b003201238b6aea2a355389ceaba32d6554be7bac2a78266d70baa36ba755"
+    },
+    {
+      "path": "clinical-images/figure-ffd45d687fff2e88e3bd.jpg",
+      "bytes": 194372,
+      "sha256": "51a6f4546ea9da246fb73f582265db222936bd879d893cfe9bc304123abde18a"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6057553,
+      "sha256": "2c12d38161257cb6a8f073e052b186d88ab38b2e00441be88350c4a7d4c7a4b4"
+    },
+    {
+      "path": "scan-data/brain-t1-part-01.js",
+      "bytes": 5332923,
+      "sha256": "d18b5e044824bf5f72175e7378426f0962a4c6173b1057d7bca9bc75a9addd12"
+    },
+    {
+      "path": "scan-data/brain-t2-part-01.js",
+      "bytes": 4024583,
+      "sha256": "cf9ab3169cfc6ca2c8f98046f4e3c7c200d0cee188b6079b269d86efecf7dc68"
+    },
+    {
+      "path": "scan-data/ct-abdomen-part-01.js",
+      "bytes": 6000063,
+      "sha256": "48a88b0ee3ed5b8d4e11cf17e66084f586ee2863b5938c3ff3221f480e12cd1e"
+    },
+    {
+      "path": "scan-data/ct-abdomen-part-02.js",
+      "bytes": 4854076,
+      "sha256": "48225120dbf16db92927c7b33486d283d37b433c967dedeb80cff8d4b487010d"
+    },
+    {
+      "path": "scan-data/ct-cardio-part-01.js",
+      "bytes": 6000062,
+      "sha256": "c98f50eafc2cf880ab3cf57a295e695a6d646d2c38883073f60f5c7dcc4d5f04"
+    },
+    {
+      "path": "scan-data/ct-cardio-part-02.js",
+      "bytes": 2122474,
+      "sha256": "4bfa824c1e9eda64e68f31fe410117df1084f686f9748e05eb1811e67f4746b4"
+    },
+    {
+      "path": "scan-data/ct-chest-part-01.js",
+      "bytes": 6000061,
+      "sha256": "a94189bdbb78c8cee2ae8eafbd3d7ee332418d6709aed5cff833c3c05874c9c1"
+    },
+    {
+      "path": "scan-data/ct-chest-part-02.js",
+      "bytes": 1031624,
+      "sha256": "883409693043189c644a2da61664b566084698b1bb70e01db280ceccd8c6b01d"
+    },
+    {
+      "path": "scan-data/ct-head-part-01.js",
+      "bytes": 2678697,
+      "sha256": "9200610531106f6f015ba2f5fca38aba9d6bdf23acd22b10cce2e5ad4f8f0a61"
+    },
+    {
+      "path": "scan-data/cta-aorta-part-01.js",
+      "bytes": 6000062,
+      "sha256": "a6920b214957424dc624afce9e36bd2ec0275b727451b3a0b71d8449bc20dc11"
+    },
+    {
+      "path": "scan-data/cta-aorta-part-02.js",
+      "bytes": 6000043,
+      "sha256": "5e1a451587099180197e3842e6dcf1e6485a82e526fa0a476b412a8ff8fa4d66"
+    },
+    {
+      "path": "scan-data/cta-aorta-part-03.js",
+      "bytes": 6000043,
+      "sha256": "2f104381367f7f949a99f6b250075a3b45e30934c74f55ac977e9bc2e0734336"
+    },
+    {
+      "path": "scan-data/cta-aorta-part-04.js",
+      "bytes": 6000043,
+      "sha256": "b4e817cdb776c3064ae0aa4efd169130bb24a4f1779dce0cb14ee98bcef82261"
+    },
+    {
+      "path": "scan-data/cta-aorta-part-05.js",
+      "bytes": 3690423,
+      "sha256": "9b9585e57535b572d09ff4870aebf703355c96116a6589dba34e95d7ab2f5ee1"
+    },
+    {
+      "path": "scan-data/ctpa-part-01.js",
+      "bytes": 6000057,
+      "sha256": "3b38216d1f2e5562da7181260c66df409abfe214043bfd4f0780007eb32dbcbb"
+    },
+    {
+      "path": "scan-data/ctpa-part-02.js",
+      "bytes": 6000038,
+      "sha256": "8598605c848ee22cb63b963597b71b32ad84b83d83ba4a35f4f5bd3f9dbfeb5a"
+    },
+    {
+      "path": "scan-data/ctpa-part-03.js",
+      "bytes": 6000038,
+      "sha256": "0ef664f06ee06e4ef5d8307e1a21d77a1c8d9d3b72bee91413b689145aec8ede"
+    },
+    {
+      "path": "scan-data/ctpa-part-04.js",
+      "bytes": 5028709,
+      "sha256": "ed6e2eeb295a8c5db60dce713340683facde9cd9851036013b8242f0b270aba8"
+    },
+    {
+      "path": "scan-data/mri-abdomen-part-01.js",
+      "bytes": 2317230,
+      "sha256": "9dbaade2c32b23addef31e4fd22e8ef8400d8e0d090e817de0604f466af97f5f"
+    }
+  ],
+  "dataFiles": 19,
+  "clinicalImages": 67
+}
